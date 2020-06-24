@@ -1,0 +1,18 @@
+﻿<Window x:Class="DriveUrselfProducts.SelectedProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DriveUrselfProducts"
+        mc:Ignorable="d"
+        Title="SelectedProduct" Height="450" Width="800">
+    <Grid>
+        <Image Name="MainImg" HorizontalAlignment="Left" Height="262" Margin="10,10,0,0" VerticalAlignment="Top" Width="279"/>
+        <TextBox Name="name" HorizontalAlignment="Left" Height="22" Margin="325,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
+        <TextBox Name="proz" HorizontalAlignment="Left" Height="26" Margin="325,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
+        <TextBox Name="Active" HorizontalAlignment="Left" Height="26" Margin="325,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
+        <TextBox Name="cost" HorizontalAlignment="Left" Height="24" Margin="325,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
+        <Button Content="Сохранить" HorizontalAlignment="Left" Height="54" Margin="161,317,0,0" VerticalAlignment="Top" Width="211" Click="Button_Click"/>
+
+    </Grid>
+</Window>

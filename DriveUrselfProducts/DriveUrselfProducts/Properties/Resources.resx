@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AD00B713" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\AD00B713.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B0A0C186" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\B0A0C186.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B0F0CB59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\B0F0CB59.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B590AA7B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\B590AA7B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B790A6AA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\B790A6AA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BA30C186" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\BA30C186.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BD80E8D5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\BD80E8D5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C310B9F3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\C310B9F3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C9C0F036" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\C9C0F036.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CC10C869" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\CC10C869.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CC40C869" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\CC40C869.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D0D08F32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\D0D08F32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D2508F32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\D2508F32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D4D0CE67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\D4D0CE67.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D9605006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\D9605006.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DC70BEC3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\DC70BEC3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E0A0E079" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\E0A0E079.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E0D0E079" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\E0D0E079.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E320BB7C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\E320BB7C.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E3A0B18A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\E3A0B18A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E5507A37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\E5507A37.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E9308929" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\E9308929.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EF80D790" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\EF80D790.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EFC05011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\EFC05011.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F160E078" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\F160E078.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F200BC2F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\F200BC2F.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F2B0E078" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\F2B0E078.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F2E0E078" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\F2E0E078.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F310E078" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\F310E078.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F460E078" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\F460E078.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F490E078" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\F490E078.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F8E0B138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\F8E0B138.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FA90B138" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\FA90B138.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_0070C563" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\0070C563.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_022096CB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\022096CB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_03D096CB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\03D096CB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_0D30C4EE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\0D30C4EE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_0D60A8A4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\0D60A8A4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_0DF0A8A4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\0DF0A8A4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_21B0E533" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\21B0E533.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23106A35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\23106A35.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2390848B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\2390848B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23F0848B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\23F0848B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_27B0C883" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\27B0C883.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2A109062" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\2A109062.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2B009062" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\2B009062.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2B609062" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\2B609062.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2D709062" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\2D709062.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2E00E06C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\2E00E06C.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2E30E06C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\2E30E06C.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2E60E06C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\2E60E06C.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_30E0C751" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\30E0C751.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3760D73F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\3760D73F.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3970E753" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\3970E753.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_39A0C188" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\39A0C188.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_39D0C188" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\39D0C188.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3B70C57C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\3B70C57C.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3DA0B713" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\3DA0B713.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3DF0E4BC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\3DF0E4BC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_40409946" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\40409946.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_43909176" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\43909176.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_43C09176" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\43C09176.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_43E08C52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\43E08C52.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_45008C52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\45008C52.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_45908C52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\45908C52.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_47E07CB5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\47E07CB5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5180B90E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\5180B90E.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5250C855" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\5250C855.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_54B0795D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\54B0795D.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_59B0BE73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\59B0BE73.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5A30A7EE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\5A30A7EE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5BB0C351" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\5BB0C351.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5BE0C351" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\5BE0C351.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6080DCD5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\6080DCD5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_63C09E91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\63C09E91.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6730A31C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\6730A31C.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6800BB8A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\6800BB8A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_69C0CD62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\69C0CD62.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6CA0BE73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\6CA0BE73.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6CE0A012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\6CE0A012.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6DA0A012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\6DA0A012.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6DD0A012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\6DD0A012.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7B70B9C6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\7B70B9C6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8430842A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\8430842A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_85C04040" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\85C04040.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8BC0C1A9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\8BC0C1A9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8E20A863" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\8E20A863.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8F609ED7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\8F609ED7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8F909ED7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\8F909ED7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8FE07916" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\8FE07916.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_90505D31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\90505D31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_90A0B807" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\90A0B807.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_90D0B807" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\90D0B807.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9290C1E7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\9290C1E7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_92C0C1E7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\92C0C1E7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9380C1E7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\9380C1E7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_96E0C1E7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\96E0C1E7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9750DA76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\9750DA76.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_97809225" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\97809225.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9B3075EB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Товары автосервиса\9B3075EB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
